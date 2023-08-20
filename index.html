@@ -324,12 +324,417 @@
         </div><!-- /.container -->
 
 
-        <!-- FOOTER -->
-        <footer class="container">
-            <p class="float-end"><a href="#">عد إلى الأعلى</a></p>
-            <p>&copy; DATAC Company, Inc. &middot; <a href="#">سياسة الخصوصية</a> &middot; <a href="#">شروط
-                    الاستخدام</a></p>
-        </footer>
+
+        <!--Start of the ALbum RTL Section -->
+
+        <body>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+                <symbol id="check2" viewBox="0 0 16 16">
+                    <path
+                        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                </symbol>
+                <symbol id="circle-half" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+                </symbol>
+                <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                    <path
+                        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+                </symbol>
+                <symbol id="sun-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                </symbol>
+            </svg>
+
+            <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+                <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"
+                    type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                    <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+                        <use href="#circle-half"></use>
+                    </svg>
+                    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center"
+                            data-bs-theme-value="light" aria-pressed="false">
+                            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                                <use href="#sun-fill"></use>
+                            </svg>
+                            Light
+                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                <use href="#check2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                            aria-pressed="false">
+                            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                                <use href="#moon-stars-fill"></use>
+                            </svg>
+                            Dark
+                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                <use href="#check2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center active"
+                            data-bs-theme-value="auto" aria-pressed="true">
+                            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                                <use href="#circle-half"></use>
+                            </svg>
+                            Auto
+                            <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                <use href="#check2"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <header data-bs-theme="dark">
+                <div class="collapse text-bg-dark" id="navbarHeader">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-7 py-4">
+                                <h4> مرحبا بكم في الشرق للادوات الصحية </h4>
+                                <p class="text-body-secondary">شركة الشرق تورد كافة منتجات الادوات الصحية بجودة ألمانية
+                                    وإيطالية والمطابقة للمعايير الدولية وخاضعة لإختبارات الجودة بيخليها الإختيار الأول
+                                    للتأسيس ومصدر ثقة ✅
+                                    نتمني لكم تجربة جديدة مع شركة الشرق حيث نحرص دائما علي رضاء العملاء والالتزام بتوريد
+                                    المنتجات الأفضل في الجودة والمواصفات والاقل سعرا في السوق بأذن الله ..
+                                    كما توم شركة الشرق بتوريد كل ما يلزم خطوط و شبكات (البخار - الحريق - التكييف المركزي
+                                    - المياه - الغاز وخلافه ) ولوازم آبار المياه الجوفية و البترول و محطات تحلية المياه
+                                    و خطوط و مستلزمات مصانع الاغذية و الألبان و الكيماويات .
+                                    من اجود الخامات المعتمدة عالميا و الحاصلة علي شهادات الجودة الخاصة بها
+                                    مما يجعلنا قادرون علي المنافسة في السوق المحلي نظرا لثقة عملائنا الكرام ..
+                                </p>
+                            </div>
+                            <div class="col-sm-4 offset-md-1 py-4">
+                                <h4>تواصل معنا هاتف 022022012022</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-white">تابعني على تويتر</a></li>
+                                    <li><a href="#" class="text-white">شاركني الإعجاب في فيسبوك</a></li>
+                                    <li><a href="#" class="text-white">راسلني على البريد الإلكتروني</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar navbar-dark bg-dark shadow-sm">
+                    <div class="container">
+                        <a href="#" class="navbar-brand d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                aria-hidden="true" class="me-2" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                                <circle cx="12" cy="13" r="4" />
+                            </svg>
+                            <strong>المنتجات </strong>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                            aria-label="تبديل التنقل">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+
+                <section class="py-5 text-center container">
+                    <div class="row py-lg-5">
+                        <div class="col-lg-6 col-md-8 mx-auto">
+                            <h1 class="fw-light">الادوات الصحية </h1>
+                            <p class="lead text-body-secondary">
+                                لأننا عارفين ان سمعتك هى أساس اختيارك وأمانك . عشان كده بننصح أنك تختار اللى يبنى سمعتك
+                                كسباك صحي وتختار أفضل وأجود منتجاتنا المضمونة من كبري شركات مجال الادوات الصحية في مصر
+                                ..
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-primary my-2">نظرة عامة </a>
+                                <a href="#" class="btn btn-secondary my-2">جميع المنتجات </a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="album py-5 bg-body-tertiary">
+                    <div class="container">
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">خطوط البخار </text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">كالكيعان و T لحام والقلاوظ وضغط عالي جميع مستلزمات خطوط
+                                            الحريق من مواسير سيملس و UPVC و مجلفن وقطع الاتصال كالكيعان والمشتركات (
+                                            محابس OS&Y – وصمام عدم رجوع – فلو سوتش – تامبر سويتش – test & Duran – ايرفنت
+                                            – اسبلينكر – خرطوم حريق – حنفية حريق – بشبوري متعدد –صندوق حفظ خرطوم – صندوق
+                                            هوزريل – مدفع ترددى – Faire Hydrant ) نتمني لكم تجربة جديدة مع شركة الشرق
+                                            حيث نحرص دائما علي رضاء العملاء والالتزام بتوريد المنتجات الأفضل في الجودة
+                                            والمواصفات والاقل سعرا في السوق</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">توريد المصانع </text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">من منتجات شركة الشرق لتجارة الاستانلس 304-316
+                                            توريد لشركات الالبان والاغذيه وشركات الادويه وشركات البترول
+                                            مواسير البان وجداول جميع المقاسات والاقطار
+                                            لاوزم مواسير البان وجداول من قلاوظ ولحامات
+                                            محابس والواح وفلانشات ووصلات مرنه</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">استورد منتجك بنفسك </text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">خدمة التمويل هي خدمة مقدمة من الشرق جروب بالاشتراك مع عمر
+                                            باي لمساعدة صغار المستوردين والتجار في النهوض بأعمالهم بشكل سلس وسهل. يمكننا
+                                            تمويل طلبات المنتجات بحد أقصي 80% من اجمالي سعر المنتجات المتاح بها عملية
+                                            التمويل ولفترة سداد 6 أشهر كاملة وخدمة التمويل علي شراء السلع فقط ولا يوجد
+                                            تمويل للشحن او الجمارك او اي مصاريف اخري في الوقت الحالي</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">المحابس بانواعها</text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">متوفر لدينا محابس استانلس ستيل ٣٠٤ و ٣١٦ 3PIC و 2PIC ومحابس
+                                            صلب ض٢٠٠٠ و ٣٠٠٠ وفلاتر وشيكات بلف ويفر وسوسته وبوابه وجميع اللوازم
+                                            الاستانلس والصلب</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">الامن الصناعي </text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            الامن الصناعي
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">صورة مصغرة</text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي.
+                                            هذا المحتوى أطول قليلاً.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">الاستيراد من الصيين</text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            تواصل الان من خلالنا مع أفضل مصانع الصين في مجالات الادوات الصحية والامن
+                                            الصناعي واحصل الان علي عروض اسعار ونحن نقوم بتسليمة حتي باب عملك مع ضمانة
+                                            المواصفات والجودة المطلوبة والالتزام بها كل ما عليك هو ارسال المنتج المراد
+                                            استيرادة من الخارج ومواصفاتة ونحن نقوم بأتمام كافة الاجراءات من بداية
+                                            التواصل مع الموردين في الصين حتي استلام المتفق علية داخل مصر مع تسهيلات في
+                                            دفع مبالغ الشحنات وامكانية تمويل شركتنا لما تريد استيرادة حتي تستلم منتجك
+                                            هنا وبعدها يتم دفع مبلغ الشحنة بالكامل واستلامها والمراجعة علي مواصفاتها ...
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">صورة مصغرة</text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي.
+                                            هذا المحتوى أطول قليلاً.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                        xmlns="http://www.w3.org/2000/svg" role="img"
+                                        aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice"
+                                        focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                            fill="#eceeef" dy=".3em">صورة مصغرة</text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي.
+                                            هذا المحتوى أطول قليلاً.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">عرض</button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">تعديل</button>
+                                            </div>
+                                            <small class="text-body-secondary">9 دقائق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <!--END of the section -->
+
+
+
+
+
+
+            <!-- FOOTER -->
+            <footer class="container">
+                <p class="float-end"><a href="#">عد إلى الأعلى</a></p>
+                <p>&copy; DATAC Company, Inc. &middot; <a href="#">سياسة الخصوصية</a> &middot; <a href="#">شروط
+                        الاستخدام</a></p>
+            </footer>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
 

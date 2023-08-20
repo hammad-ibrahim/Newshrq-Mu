@@ -17,4 +17,4 @@ jobs:
         server: node5222.myfcloud.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        serverdir: /home/supermatgar/newsharq.com/
+        serverdir: /supermatgar/newsharq.com/
